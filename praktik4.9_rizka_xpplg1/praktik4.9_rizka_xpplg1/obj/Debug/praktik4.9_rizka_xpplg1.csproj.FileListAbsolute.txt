@@ -1,0 +1,2 @@
+D:\rizka\praktik4.9_rizka_xpplg1\praktik4.9_rizka_xpplg1\obj\Debug\praktik4.9_rizka_xpplg1.csproj.AssemblyReference.cache
+D:\rizka\praktik4.9_rizka_xpplg1\praktik4.9_rizka_xpplg1\obj\Debug\praktik4.9_rizka_xpplg1.csproj.CoreCompileInputs.cache
