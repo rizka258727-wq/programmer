@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Calon Siswa Baru SMK</title>
+</head>
+<body>
+    <h2>FORMULIR PENDAFTARAN CALON SISWA BARU SMK</h2>
+
+  <fieldset>
+    <legend><strong>BIODATA SISWA</strong></legend>
+    <form>
+      <label for="no-un">No UN SMP/MTs/Sederajat:</label><br>
+      <input type="text" id="no-un" name="no-un"><br><br>
+
+      <label for="nama">Nama Lengkap:</label><br>
+      <input type="text" id="nama" name="nama"><br><br>
+
+      <label>Jenis Kelamin:</label><br>
+      <input type="radio" id="laki" name="jenis-kelamin" value="Laki-laki">
+      <label for="laki">Laki-laki</label><br>
+      <input type="radio" id="perempuan" name="jenis-kelamin" value="Perempuan">
+      <label for="perempuan">Perempuan</label><br><br>
+
+      <label for="ortu">Nama Orangtua/Wali:</label><br>
+      <input type="text" id="ortu" name="ortu"><br><br>
+
+      <label for="alamat">Alamat (sesuai KK/KTP/Surat Ket Domisili & Bin Ortu/Walimurid calon siswa):</label><br>
+      <textarea id="alamat" name="alamat" rows="3" cols="40"></textarea><br><br>
+
+      <label for="kota">Kota/Kabupaten:</label><br>
+      <input type="text" id="kota" name="kota"><br><br>
+
+      <label for="asal-sekolah">Asal Sekolah:</label><br>
+      <input type="text" id="asal-sekolah" name="asal-sekolah"><br><br>
+
+      <label for="agama">Agama:</label><br>
+      <select id="agama" name="agama">
+        <option value="Islam">Islam</option>
+        <option value="Kristen">Kristen</option>
+        <option value="Katolik">Katolik</option>
+        <option value="Hindu">Hindu</option>
+        <option value="Buddha">Buddha</option>
+        <option value="Konghucu">Konghucu</option>
+      </select><br><br>
+    </form>
+  </fieldset>
+
+  <br>
+
+  <fieldset>
+    <legend><strong>PENILAIAN</strong></legend>
+    <form>
+      <label for="matematika">1. Matematika:</label><br>
+      <input type="number" id="matematika" name="matematika" step="0.01"><br><br>
+
+      <label for="bindo">2. Bahasa Indonesia:</label><br>
+      <input type="number" id="bindo" name="bindo" step="0.01"><br><br>
+
+      <label for="binggris">3. Bahasa Inggris:</label><br>
+      <input type="number" id="binggris" name="binggris" step="0.01"><br><br>
+
+      <label for="ipa">4. Ilmu Pengetahuan Alam (IPA):</label><br>
+      <input type="number" id="ipa" name="ipa" step="0.01"><br><br>
+
+      <label for="jumlah-nun">Jumlah NUN:</label><br>
+      <input type="number" id="jumlah-nun" name="jumlah-nun" step="0.01"><br><br>
+
+      <label for="nbp">Nilai Bonus Prestasi (NBP):</label><br>
+      <input type="number" id="nbp" name="nbp" step="0.01"><br><br>
+
+      <label for="total">Jumlah Total Nilai Akhir PPDB (Rumus: NUN + NBP):</label><br>
+      <input type="number" id="total" name="total" step="0.01"><br><br>
+    </form>
+  </fieldset>
+</body>
+</html>
