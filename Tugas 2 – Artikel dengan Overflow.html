@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tugas Overflow</title>
+<style>
+article {
+  width: 250px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 5px;
+  background-color: lightyellow;
+}
+#visible { overflow: visible; }
+#hidden { overflow: hidden; }
+#scroll { overflow: scroll; }
+#auto { overflow: auto; }
+</style>
+</head>
+<body>
+<h1>Contoh Overflow</h1>
+
+<article id="visible">
+Artikel 1: Ini adalah contoh teks panjang yang akan meluap keluar dari kotak karena menggunakan overflow visible. Konten tetap terlihat meskipun keluar dari batas elemen.
+</article>
+
+<article id="hidden">
+Artikel 2: Ini adalah contoh teks panjang yang akan terpotong karena menggunakan overflow hidden. Konten yang meluap tidak akan terlihat.
+</article>
+
+<article id="scroll">
+Artikel 3: Ini adalah contoh teks panjang yang akan menampilkan scrollbar karena menggunakan overflow scroll. Pengguna bisa menggulir untuk melihat seluruh konten.
+</article>
+
+<article id="auto">
+Artikel 4: Ini adalah contoh teks panjang yang akan menampilkan scrollbar hanya jika diperlukan karena menggunakan overflow auto. Jika konten muat, scrollbar tidak muncul.
+</article>
+
+</body>
+</html>
