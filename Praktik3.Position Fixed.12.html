@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Kotak kiri atas */
+.top-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: yellow;
+  padding: 10px;
+}
+
+/* Tombol Back to Top */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: orange;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Elemen fixed kiri */
+.fixed-left {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+/* Elemen fixed kanan */
+.fixed-right {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  background-color: lightgreen;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+  <div class="top-left">Kiri Atas</div>
+  <div class="back-to-top" onclick="window.scrollTo(0,0)">Back to Top</div>
+  <div class="fixed-left">Left Side</div>
+  <div class="fixed-right">Right Side</div>
+
+  <!-- Konten panjang untuk uji scroll -->
+  <div style="height:2000px; background:linear-gradient(white, gray);"></div>
+</body>
+</html>

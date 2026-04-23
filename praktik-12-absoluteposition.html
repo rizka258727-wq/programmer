@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Back to Top</title>
+<style>
+body {
+  height: 2000px;
+}
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: yellow;
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+  <h1>Scroll ke bawah untuk melihat tombol</h1>
+  <div id="backToTop" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+    Back to Top
+  </div>
+</body>
+</html>

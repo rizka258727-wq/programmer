@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>4 Kotak Sudut</title>
+<style>
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: lightgray;
+}
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+.top-left { top: 0; left: 0; background-color: red; }
+.top-right { top: 0; right: 0; background-color: blue; }
+.bottom-left { bottom: 0; left: 0; background-color: green; }
+.bottom-right { bottom: 0; right: 0; background-color: orange; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="box top-left">TL</div>
+    <div class="box top-right">TR</div>
+    <div class="box bottom-left">BL</div>
+    <div class="box bottom-right">BR</div>
+  </div>
+</body>
+</html>
